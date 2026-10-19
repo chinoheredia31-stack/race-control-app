@@ -4,12 +4,11 @@
   "main": "dist/server.js",
   "scripts": {
     "dev": "next dev",
-    "build": "prisma generate && next build",
+    "build": "next build",
     "start": "next start",
     "server": "ts-node-dev src/server.ts",
     "server:build": "tsc",
-    "server:start": "node dist/server.js",
-    "postinstall": "prisma generate"
+    "server:start": "node dist/server.js"
   },
   "dependencies": {
     "@prisma/client": "^5.0.0",

@@ -1,5 +1,4 @@
 // src/app/layout.tsx
-import './globals.css';
 import { Navbar } from '@/components/Navbar';
 
 export const metadata = {

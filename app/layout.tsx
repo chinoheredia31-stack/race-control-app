@@ -1,6 +1,6 @@
 // app/layout.tsx
 import './globals.css';
-import { Navbar } from '@/components/Navbar';
+import { Navbar } from '../src/components/Navbar';
 
 export const metadata = {
   title: 'ESRA — Esport Racing Argentina',

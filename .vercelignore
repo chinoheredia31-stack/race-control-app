@@ -1,2 +1,4 @@
+server/
+server.ts
 src/server.ts
 src/routes/

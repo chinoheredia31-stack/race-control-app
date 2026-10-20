@@ -1,9 +1,8 @@
-// src/app/layout.tsx
-import { Navbar } from '@/components/Navbar';
+import './globals.css';
 
 export const metadata = {
-  title: 'ESRA — Esport Racing Argentina',
-  description: 'Sistema de gestión de campeonatos y cómputos para sim racing',
+  title: 'ESRA - Esport Racing Argentina',
+  description: 'Sistema de Control de Carrera y Campeonatos',
 };
 
 export default function RootLayout({
@@ -12,10 +11,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="es" className="bg-slate-950 text-slate-100">
-      <body className="min-h-screen flex flex-col font-sans antialiased">
-        <Navbar />
-        <main className="flex-1">{children}</main>
+    <html lang="es">
+      <body className="bg-slate-950 text-slate-100 min-h-screen">
+        {children}
       </body>
     </html>
   );

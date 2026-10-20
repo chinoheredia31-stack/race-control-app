@@ -7,9 +7,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "server": "tsx watch src/server.ts",
+    "server": "tsx watch server/server.ts",
     "server:build": "npx prisma generate",
-    "server:start": "tsx src/server.ts"
+    "server:start": "tsx server/server.ts"
   },
   "dependencies": {
     "@prisma/client": "^5.22.0",
